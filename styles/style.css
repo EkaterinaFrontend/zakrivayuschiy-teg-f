@@ -34,8 +34,7 @@
   width: 50%;
   text-align: center;
   border: 2px solid black;
-  padding: clamp(7.5rem, 7.1479rem + 1.5023vw, 8rem) 0
-    clamp(7.5rem, 7.1479rem + 1.5023vw, 8rem);
+  padding: clamp(7.5rem, 7.1479rem + 1.5023vw, 8rem);
   width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
 }
 
@@ -86,7 +85,7 @@
   filter: saturate(200%);
 }
 .contrast__image {
-  filter: contrast(200%);
+  filter: sepia(50%) grayscale(30%) brightness(1.2) contrast(1.1);
 }
 .opacity__image {
   filter: opacity(30%);
@@ -122,6 +121,17 @@
   -webkit-text-stroke: 1px rgba(255, 255, 255, 1);
   color: rgba(0, 0, 0, 1);
 }
+@supports (-webkit-text-stroke: 1px rgba(255, 255, 255, 1)) {
+  .card__label {
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 1);
+  }
+}
+
+@supports (text-stroke: 1px rgba(255, 255, 255, 1)) {
+  .card__label {
+    text-stroke: 1px rgba(255, 255, 255, 1);
+  }
+}
 .container__item-card {
   margin-bottom: 50px;
   border: 2px solid black;
@@ -151,7 +161,6 @@
 
 .card__icon-button {
   background: transparent;
-  border: none;
   margin-right: 6px;
   border: 2px solid transparent;
   transition: border 0.3s ease;
