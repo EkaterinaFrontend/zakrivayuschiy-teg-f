@@ -7,5 +7,6 @@
     --animation-fill-color:rgba(255, 0, 0, 1);
     --sparks-fill-color:rgba(255, 0, 0, 1);
     --contour-color:#000;
+    --padding:clamp(7.5rem, 7.1479rem + 1.5023vw, 8rem) 0 clamp(7.5rem, 7.1479rem + 1.5023vw, 8rem);
        
 }
