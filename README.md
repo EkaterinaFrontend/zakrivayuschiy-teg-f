@@ -1,1 +1,1 @@
-https://ekaterinafrontend.github.io/zakrivayuschiy-teg-f/
+https://github.com/EkaterinaFrontend/zakrivayuschiy-teg-f
