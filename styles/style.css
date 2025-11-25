@@ -31,7 +31,6 @@
 .header {
   background: #fff;
   margin: auto;
-  width: 50%;
   text-align: center;
   border: 2px solid black;
   padding: var(--padding);
