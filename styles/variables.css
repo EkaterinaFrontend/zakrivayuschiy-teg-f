@@ -1,12 +1,22 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-    --font-main:'Inter-Variable';
-    --font-main-weight-text:400;
-    --font-main-weight-heading:700;
-    --font-accent:'PressStart2P';
-    --animation-fill-color:rgba(255, 0, 0, 1);
-    --sparks-fill-color:rgba(255, 0, 0, 1);
-    --contour-color:#000;
-    --padding:clamp(7.5rem, 7.1479rem + 1.5023vw, 8rem) 0 clamp(7.5rem, 7.1479rem + 1.5023vw, 8rem);
-       
+  --font-main: "Inter-Variable";
+  --font-main-weight-text: 400;
+  --font-main-weight-heading: 700;
+  --font-weight-title: 715;
+  --font-accent: "PressStart2P";
+  --animation-fill-color: rgba(255, 0, 0, 1);
+  --sparks-fill-color: rgba(255, 0, 0, 1);
+  --contour-color: #000;
+  --padding: clamp(7.5rem, 7.1479rem + 1.5023vw, 8rem) 0
+    clamp(7.5rem, 7.1479rem + 1.5023vw, 8rem);
+  --bg-linear-gradient: repeating-linear-gradient(
+      90deg,
+      #d3d3d3 0 2px,
+      rgb(0 0 0 / 0) 2px 4px
+    ),
+    repeating-linear-gradient(180deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px),
+    linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
+  --details-color: #000;
+  --details-color-light: #fff;
 }
